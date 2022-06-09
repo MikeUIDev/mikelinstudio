@@ -1,0 +1,32 @@
+{
+  "name": "mikelinstudio",
+  "version": "1.0.0",
+  "description": "Mike Lin Digital Developer portfolio",
+  "main": "js/main.js",
+  "scripts": {
+    "compile-sass": "sass assets/styles/main.scss css/main.css -w",
+    "css-minify": "css-minify -f css/main.css && copyfiles --flat css-dist/*.css css"
+  },
+  "engine": {
+    "npm": "8.1.2",
+    "node": "16.13.1"
+  },
+  "author": "Mike Lin",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0-beta1",
+    "copyfiles": "^2.4.1",
+    "css-minify": "^2.0.0",
+    "fullpage.js": "^4.0.8",
+    "jslint": "^0.12.1",
+    "normalize.css": "^8.0.1",
+    "npm": "^8.11.0",
+    "npm-sass": "^3.1.0",
+    "package": "^1.0.1",
+    "postcss-loader": "^7.0.0",
+    "reset-css": "^5.0.1",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0"
+  }
+}

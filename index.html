@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mikelinstudio</title>
+
+    <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">mikelinstudio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">UX Case Study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="fullpage">
+            <div id="section-1" class="section home">
+                <div class="col-lg-8 mx-auto">
+                    <div class="">
+                        <h2>Hey! I'm Mike Lin</h2>
+                        <h3>I'm a Frontend Developer / Designer based in San Francisco Bay Area</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="section-2" class="section projects">                
+                <div class="slide">Project</div>
+                <div class="slide">Project222222</div>
+                <div class="slide">Project333333</div>
+            </div>
+            <div id="section-3" class="section ux">UX</div>
+            <div id="section-4" class="section contact">Contact</div>
+            <div id="section-5" class="section about-me">About Me</div>
+        </div>
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        new fullpage('#fullpage', {
+            anchors: ['page1', 'page2', 'page3', 'page4'],
+            navigationTooltips: ['fullPage', 'Open', 'Easy', 'Touch'],
+            css3: true,
+            scrollingSpeed: 1000,
+            navigation: true,
+            slidesNavigation: false,
+            responsiveHeight: 330,
+            dragAndMove: true,
+            dragAndMoveKey: 'YWx2YXJvdHJpZ28uY29tX0EyMlpISmhaMEZ1WkUxdmRtVT0wWUc=',
+            controlArrows: false
+        });
+    </script>
+</body>
+</html>
+

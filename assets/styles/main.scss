@@ -1,0 +1,15 @@
+// CSS reset
+@import '../../node_modules/reset-css/sass/reset';
+
+//Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//Variables
+@import "base/variables";
+
+// Global Styles
+@import "components/navigation.scss";
+@import "components/home.scss";
+@import "components/ux.scss";
+@import "components/project.scss";
+@import "components/contact.scss" ;
